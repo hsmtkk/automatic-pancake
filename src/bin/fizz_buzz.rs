@@ -21,7 +21,7 @@ mod tests {
     use super::fizz_buzz;
 
     #[test]
-    fn test_fizz_buzz(){
+    fn test_fizz_buzz() {
         assert_eq!("Fizz", fizz_buzz(6));
         assert_eq!("Buzz", fizz_buzz(10));
         assert_eq!("FizzBuzz", fizz_buzz(30));
