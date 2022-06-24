@@ -1,11 +1,9 @@
 [package]
-name = "automatic-pancake"
+name = "file_search"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
-[workspace]
-members = ["bingo_card", "bmi", "dice", "eiwa", "file_search", "maze", "question", "sum_args"]
+walkdir = "2.3.2"
