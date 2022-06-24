@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 
 [workspace]
-members = ["bingo_card", "dice", "maze"]
+members = ["bingo_card", "bmi", "dice", "eiwa", "maze", "question", "sum_args"]
