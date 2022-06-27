@@ -1,0 +1,13 @@
+[package]
+name = "web_bmi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.5.9"
+serde = {version="1.0.137", features=["derive"]}
+tokio = {version="1.19.2", features=["rt-multi-thread", "macros"]}
+tracing = "0.1.35"
+tracing-subscriber = "0.3.11"
